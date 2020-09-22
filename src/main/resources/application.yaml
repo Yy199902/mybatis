@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://yuyin-root.mysql.zhangbei.rds.aliyuncs.com:3306/nacos?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: yuyin
+    password: yuyin1999
+
+# 打印sql
+logging:
+  level:
+    com.example.mybatis.mapper : debug
+
+
