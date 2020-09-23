@@ -33,6 +33,12 @@ public class CurdController {
 //        response.sendRedirect("http://yinsi.hdrgame.com/index.html");
     }
 
+    @GetMapping("/test")
+    public String test(HttpServletResponse response) throws IOException {
+        return "test";
+//        response.sendRedirect("http://yinsi.hdrgame.com/index.html");
+    }
+
 
 
 
