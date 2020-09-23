@@ -33,4 +33,8 @@ public class CurdController {
 //        response.sendRedirect("http://yinsi.hdrgame.com/index.html");
     }
 
+
+
+
+
 }
