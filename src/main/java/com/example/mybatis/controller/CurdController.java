@@ -27,5 +27,10 @@ public class CurdController {
 //      return "index";
         response.sendRedirect("http://yinsi.hdrgame.com/index.html");
     }
+    @GetMapping("/index")
+    public String index(HttpServletResponse response) throws IOException {
+      return "index";
+//        response.sendRedirect("http://yinsi.hdrgame.com/index.html");
+    }
 
 }
